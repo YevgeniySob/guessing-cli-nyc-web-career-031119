@@ -4,7 +4,7 @@ def run_guessing_game
   
   input = gets.chomp
   
-
+  "You guessed the correct number!"
 
 end
 
