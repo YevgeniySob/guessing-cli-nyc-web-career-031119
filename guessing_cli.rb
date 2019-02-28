@@ -9,7 +9,7 @@ def run_guessing_game
     random_num = get_random_num(1, 6)
     case input
       when "exit"
-        return"Goodbye!"
+        puts "Goodbye!"
         break
       else
         if input.to_i == random_num
