@@ -10,3 +10,8 @@ end
 
 def get_random_num(from, to)
   rand(from..to)
+end
+
+def finito
+  "Goodbye!"
+end
