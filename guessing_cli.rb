@@ -9,4 +9,4 @@ def run_guessing_game
 end
 
 def get_random_num(from, to)
-  rand()
+  rand(from, to)
