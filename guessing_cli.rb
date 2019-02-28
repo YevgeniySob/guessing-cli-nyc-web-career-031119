@@ -10,6 +10,7 @@ def run_guessing_game
     case input
       when "exit"
         finito
+        break
       else
         if input.to_i == random_num
           puts "You guessed the correct number!"
@@ -18,7 +19,6 @@ def run_guessing_game
         end
     end
   end
-  
 end
 
 def get_random_num(from, to)
