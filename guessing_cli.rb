@@ -10,7 +10,7 @@ def run_guessing_game
     case input
       when "exit"
         finito
-      when
+      when input.to_i.is_a? Numeric
     if input == "exit"
       finito
     elsif input.to_i == random_num
