@@ -9,6 +9,9 @@ def run_guessing_game
   else 
     puts "The computer guessed #{random_num}."
   end
+  if input == "exit"
+    finito
+  end
 end
 
 def get_random_num(from, to)
