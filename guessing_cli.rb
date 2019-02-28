@@ -10,14 +10,13 @@ def run_guessing_game
     case input
       when "exit"
         finito
-      when input.to_i.is_a? Numeric
-    if input == "exit"
-      finito
-    elsif input.to_i == random_num
-      puts "You guessed the correct number!"
-    else 
-      puts "The computer guessed #{random_num}."
-    end
+      else
+        if input.to_i == random_num
+          puts "You guessed the correct number!"
+        else 
+          puts "The computer guessed #{random_num}."
+        end
+      end
   
 end
 
